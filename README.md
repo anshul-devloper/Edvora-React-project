@@ -1,1 +1,1 @@
-# Edvora Frontend UI
+# Edvora REACT Frontend UI 
