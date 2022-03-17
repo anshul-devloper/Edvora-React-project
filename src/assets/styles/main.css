@@ -1,0 +1,129 @@
+/*Navbar styles*/
+.nav-row {
+  width: 100%;
+  background: #101010;
+  color: white;
+  font-weight: 700;
+  height: 80px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0;
+}
+.nav-row .col-lg-3 {
+  font-size: 1.2rem;
+  text-align: right;
+}
+.nav-row .col-lg-3 img {
+  margin-left: 1rem;
+}
+.nav-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+body {
+  background-color: #232323;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/*Filter section styles*/
+.filter-c {
+  width: 100vw;
+  overflow-x: hidden;
+  padding: 1rem 2rem;
+}
+
+.filter-c button {
+  border: none;
+  background-color: transparent;
+  color: #d0cbcb;
+  margin: 0.5rem 2rem;
+}
+.filter-c button:hover {
+  cursor: pointer;
+}
+.filter-c button:focus {
+  outline: none;
+}
+#selected {
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.r-btn {
+  float: right;
+}
+.filter-box {
+  background: #101010;
+  position: absolute;
+  right: 50px;
+  top: 130px;
+  width: 15rem;
+  height: auto;
+  border-radius: 10px;
+  padding: 1rem;
+  z-index: 500;
+}
+.filters-h {
+  color: #d0cbcb;
+  padding: 0.5rem;
+  border-bottom: 1px solid white;
+}
+
+.filter-box select {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #232323;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  color: white;
+}
+
+/*Single Card Styling*/
+.single-card {
+  width: 90%;
+  margin-left: 3%;
+  background: #171717;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.map-img {
+  width: 80%;
+  height: 10rem;
+  margin-left: 10%;
+}
+
+.field {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(150, 150, 150);
+  margin-right: 0.5rem;
+}
+.value {
+  color: white;
+  font-weight: 500;
+}
+.col-lg-9 .row {
+  margin-bottom: 0.5rem;
+}
+.card-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-box span {
+  background-color: #000000;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+}
